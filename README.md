@@ -1,6 +1,6 @@
 # homebrew-formulae
 
-Homebrew formulae for various tools.
+:beer: Homebrew formulae for various tools.
 
 ## Available formulae
 
