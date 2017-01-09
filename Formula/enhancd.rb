@@ -6,15 +6,15 @@ class Enhancd < Formula
 
   def install
     prefix.install Dir["./*"]
-    (prefix/"etc/enhancd.d").install_symlink prefix/"init.sh"
-    (prefix/"etc/enhancd.d").install_symlink prefix/"custom"
-    (prefix/"etc/enhancd.d").install_symlink prefix/"src"
+    (prefix/"etc/enhancd").install_symlink prefix/"init.sh"
+    (prefix/"etc/enhancd").install_symlink prefix/"custom"
+    (prefix/"etc/enhancd").install_symlink prefix/"src"
   end
 
   def caveats
     <<-EOS.undent
       To enable enhancd, add to your profile:
-        source #{etc}/enhancd.d/init.sh
+        source #{etc}/enhancd/init.sh
     EOS
   end
 
