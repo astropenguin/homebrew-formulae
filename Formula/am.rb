@@ -16,7 +16,7 @@ class Am < Formula
       Create a directory for the am cache files (~/.am),
       and set an environment variable to your profile:
         export AM_CACHE_PATH=~/.am
-    EOS    
+    EOS
   end
 
   test do
