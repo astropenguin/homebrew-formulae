@@ -12,7 +12,7 @@ class Am < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<~EOS
       Create a directory for the am cache files (~/.am),
       and set an environment variable to your profile:
         export AM_CACHE_PATH=~/.am
