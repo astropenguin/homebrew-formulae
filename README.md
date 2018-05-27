@@ -6,9 +6,9 @@
 
 ### My tools
 
-+ [snoopython/finder-cli](https://github.com/snoopython/finder-cli): Command line interface for macOS to operate current Finder windows
-+ [snoopython/naoj-open](https://github.com/snoopython/naoj-open): Mini tool for macOS to connect naoj-open with the weekly key
-+ [snoopython/rmsafe](https://github.com/snoopython/rmsafe): Python tool to move files and/or directories to macOS Trash
++ [astropenguin/finder-cli](https://github.com/astropenguin/finder-cli): Command line interface for macOS to operate current Finder windows
++ [astropenguin/naoj-open](https://github.com/astropenguin/naoj-open): Mini tool for macOS to connect naoj-open with the weekly key
++ [astropenguin/rmsafe](https://github.com/astropenguin/rmsafe): Python tool to move files and/or directories to macOS Trash
 
 ### Third party tools
 
