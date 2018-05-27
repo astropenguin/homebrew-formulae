@@ -1,8 +1,8 @@
 class Am < Formula
   desc "Tool for radiative transfer computations at microwave to submillimeter wavelengths"
   homepage "https://www.cfa.harvard.edu/~spaine/am/index.html"
-  url "https://www.cfa.harvard.edu/~spaine/am/download/am-9.2.tgz"
-  sha256 "bba9d88da0eef4d632b6f5f107b983a152b394ef6d0dfc6a3fe6c1f5b4082073"
+  url "https://zenodo.org/record/1193771/files/am-10.0.tgz"
+  sha256 "cac612c112ff4c5386570088ba90d2f6469b013cd683e712a4b27ea0470f806c"
 
   depends_on "gcc" => :build
 
