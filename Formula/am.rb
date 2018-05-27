@@ -7,7 +7,7 @@ class Am < Formula
   depends_on "gcc" => :build
 
   def install
-    system "make", "omp"
+    system "make"
     bin.install "am"
   end
 
