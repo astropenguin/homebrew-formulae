@@ -2,7 +2,14 @@
 
 :beer: Homebrew formulae for various tools.
 
-## Available formulae
+## Usage
+
+```
+$ brew tap astropenguin/formulae
+$ brew install <formula>
+```
+
+## List of formulae
 
 ### My tools
 
@@ -15,3 +22,4 @@
 + [am](https://www.cfa.harvard.edu/~spaine/am/index.html): Tool for radiative transfer computations at microwave to submillimeter wavelengths
 + [enhancd](https://github.com/b4b4r07/enhancd): A next-generation cd command with an interactive filter
 + [rpfits-binary](https://www.atnf.csiro.au/computing/software/rpfits.html): Library to access ATCA visibility data in RPFITS format (binary distribution)
+    - [ska-sa/homebrew-tap](https://github.com/ska-sa/homebrew-tap) also provides a formula (build from source code)
