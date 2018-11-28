@@ -5,8 +5,8 @@ class RpfitsBinary < Formula
     sha256 '8c6b490a10a71299cb0527b51cc682eaea24c3a4fe069c421714bbf7eb6a8f68'
 
     def install
-      lib.install ['librpfits.a']
-      bin.install ['rpfex','rpfhdr']
-      include.install ['code/RPFITS.h']
+      lib.install ['darwin/librpfits.a']
+      bin.install ['darwin/rpfex','darwin/rpfhdr']
+      include.install ['darwin/RPFITS.h']
     end
   end
