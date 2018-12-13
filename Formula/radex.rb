@@ -7,10 +7,12 @@ class Radex < Formula
   depends_on "gcc" => :build
 
   def install
-    system "make", "build"
-    bin.install "radex-sphere"
-    bin.install "radex-lvg"
-    bin.install "radex-slab"
+    mkdir "build" do
+      system "make", "build"
+      bin.install "radex-sphere"
+      bin.install "radex-lvg"
+      bin.install "radex-slab"
+    end
   end
 
   test do
