@@ -1,8 +1,8 @@
 class Radex < Formula
   desc "A computer program to calculate the strengths of atomic and molecular lines from interstellar clouds"
   homepage "https://personal.sron.nl/~vdtak/radex/index.shtml"
-  url "https://github.com/astropenguin/radex-install/archive/v0.1.tar.gz"
-  sha256 "389a967072a0057f27304339bc230d4c6144d4a160119825fb6ee6955510b17c"
+  url "https://github.com/astropenguin/radex-install/archive/v0.1.1.tar.gz"
+  sha256 "55d1cd6ae06f3eeca72f5f81799c7f047cbe6477e4af107b64ed8a826464c42b"
 
   depends_on "gcc" => :build
 
