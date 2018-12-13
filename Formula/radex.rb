@@ -8,6 +8,7 @@ class Radex < Formula
 
   def install
     mkdir "build" do
+      system "cp", "../Makefile", "."
       system "make", "build"
       bin.install "radex-sphere"
       bin.install "radex-lvg"
