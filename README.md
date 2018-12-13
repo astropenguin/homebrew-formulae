@@ -21,5 +21,6 @@ $ brew install <formula>
 
 + [am](https://www.cfa.harvard.edu/~spaine/am/index.html): Tool for radiative transfer computations at microwave to submillimeter wavelengths
 + [enhancd](https://github.com/b4b4r07/enhancd): A next-generation cd command with an interactive filter
++ [radex](https://personal.sron.nl/~vdtak/radex/index.shtml): A computer program to calculate the strengths of atomic and molecular lines from interstellar clouds
 + [rpfits-binary](https://www.atnf.csiro.au/computing/software/rpfits.html): Library to access ATCA visibility data in RPFITS format (binary distribution)
     - [ska-sa/homebrew-tap](https://github.com/ska-sa/homebrew-tap) also provides a formula (build from source code)
