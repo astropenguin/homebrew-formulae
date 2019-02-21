@@ -7,7 +7,8 @@ class Am < Formula
   depends_on "gcc" => :build
 
   def install
-    system "make"
+    Dir.chdir('src')
+    system "make", "am", "COMPILER_GCC=gcc-8"
     bin.install "am"
   end
 
