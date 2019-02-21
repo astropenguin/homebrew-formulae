@@ -13,7 +13,7 @@ class FinderCli < Formula
   end
 
   def caveats
-    <<-EOS.undent
+    <<~EOS
       To enable finder-cli, add to your profile:
         source #{etc}/finder-cli/init.sh
     EOS
