@@ -7,6 +7,7 @@ class Radex < Formula
   depends_on "gcc" => :build
 
   def install
+    ENV["MOLDAT"] = ENV["HOMEBREW_MOLDAT"]
     system "make", "build"
     bin.install "radex-uni"
     bin.install "radex-lvg"
