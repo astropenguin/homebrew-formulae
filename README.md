@@ -24,3 +24,4 @@ $ brew install <formula>
 + [radex](https://personal.sron.nl/~vdtak/radex/index.shtml): Non-LTE molecular radiative transfer in homogeneous interstellar clouds
 + [rpfits-binary](https://www.atnf.csiro.au/computing/software/rpfits.html): Library to access ATCA visibility data in RPFITS format (binary distribution)
     - [ska-sa/homebrew-tap](https://github.com/ska-sa/homebrew-tap) also provides a formula (build from source code)
++ [hugo](https://gohugo.io): The world’s fastest framework for building websites (v0.54).
