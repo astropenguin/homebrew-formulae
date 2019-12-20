@@ -25,3 +25,5 @@ $ brew install <formula>
 + [rpfits-binary](https://www.atnf.csiro.au/computing/software/rpfits.html): Library to access ATCA visibility data in RPFITS format (binary distribution)
     - [ska-sa/homebrew-tap](https://github.com/ska-sa/homebrew-tap) also provides a formula (build from source code)
 + [hugo](https://gohugo.io): The world’s fastest framework for building websites (v0.54).
++ [BBarolo](https://editeodoro.github.io/Bbarolo): 3D fitting tool to derive the kinematics of galaxies from emission-line observations
++ [Glafic](https://www.slac.stanford.edu/~oguri/glafic): Gravitational lens adaptive-mesh fitting code
