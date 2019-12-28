@@ -14,8 +14,8 @@ class Fls < Formula
   def caveats
     <<~EOS
       To enable fcd, add to your shell profile:
-        (bash) source #{etc}/#{prefix}/fcd.sh
-        (fish) source #{etc}/#{prefix}/fcd.fish
+        (bash) source #{etc}/fcd.sh
+        (fish) source #{etc}/fcd.fish
     EOS
   end
 
