@@ -13,7 +13,7 @@ $ brew install <formula>
 
 ### My tools
 
-- [finder-cli](https://github.com/astropenguin/finder-cli): Command line interface for macOS to operate current Finder windows
+- [fls](https://github.com/astropenguin/fls): List paths of current macOS Finder windows
 - [naoj-open](https://github.com/astropenguin/naoj-open): Mini tool for macOS to connect naoj-open with the weekly key
 - [rmsafe](https://github.com/astropenguin/rmsafe): Python tool to move files and/or directories to macOS Trash
 
