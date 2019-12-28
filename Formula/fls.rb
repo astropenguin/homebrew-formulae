@@ -7,9 +7,8 @@ class Fls < Formula
   depends_on "fzf"
 
   def install
-    bin.install "fls"
-    etc.install "fcd.sh"
-    etc.install "fcd.fish"
+    prefix.install "bin"
+    prefix.install "etc"
   end
 
   def caveats
